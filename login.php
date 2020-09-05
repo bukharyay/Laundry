@@ -64,9 +64,69 @@ session_start();
         font-family: Poppins-Medium;
     }
 
-    /* .pass {
-            -webkit-text-security: disc;
-        } */
+    a.sosmed {
+        padding: 10px 13px;
+        /* min-width: 36px; */
+        border-radius: 33px;
+        text-align: center;
+        font-size: 23px !important;
+        transition: all 100ms;
+    }
+
+    a.sosmed.github:hover {
+        background-color: #6e5494 !important;
+        color: white !important;
+    }
+
+    a.sosmed.github {
+        color: #6e5494 !important;
+        background-color: #ffffff !important;
+        /* border: solid 1px #6e5494 !important; */
+    }
+
+    a.sosmed.youtube:hover {
+        background-color: #ff0000 !important;
+        color: white !important;
+    }
+
+    a.sosmed.youtube {
+        color: #ff0000 !important;
+        background-color: #ffffff !important;
+        /* border: solid 1px #ff0000 !important; */
+    }
+
+    a.sosmed.facebook:hover {
+        background-color: #3b5998 !important;
+        color: white !important;
+    }
+
+    a.sosmed.facebook {
+        color: #3b5998 !important;
+        background-color: #ffffff !important;
+        /* border: solid 1px #3b5998 !important; */
+    }
+
+    a.sosmed.instagram:hover {
+        background-color: #e1306c !important;
+        color: white !important;
+    }
+
+    a.sosmed.instagram {
+        color: #e1306c !important;
+        background-color: #ffffff !important;
+        /* border: solid 1px #e1306c !important; */
+    }
+
+    a.sosmed.whatsapp:hover {
+        background-color: #4AC959 !important;
+        color: white !important;
+    }
+
+    a.sosmed.whatsapp {
+        color: #4AC959 !important;
+        background-color: #ffffff !important;
+        /* border: solid 1px #4AC959 !important; */
+    }
 </style>
 
 <body>
@@ -76,7 +136,7 @@ session_start();
                 <div class="login100-pic js-tilt" data-tilt>
                     <img src="image/laundry.jpg" alt="IMG" style="margin: 40% 10%;">
                 </div>
-                <form class="login100-form validate-form" method="POST" style="margin: 60px 0px;">
+                <form class="login100-form validate-form" method="POST">
 
                     <span class="login100-form-title">
                         <span>
@@ -190,15 +250,48 @@ session_start();
                                 }
                                         ?>
                     <!-- <div class="text-center p-t-12">
-                        <span class="txt1">Forgot</span>
-                        <a class="txt2" href="#">Username / Password?</a>
-                    </div>
+                    <span class="txt1">Forgot</span>
+                    <a class="txt2" href="#">Username / Password?</a>
+                    </div> -->
+                    <!-- <div class="text-center mt-3 p-t-12">
+                        <p class="txt2" href="#">
+                            Contact Me :
+                            <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+                        </p>
+                    </div> -->
+
                     <div class="text-center p-t-12">
-                        <a class="txt2" href="#">
+                        <!-- <a class="txt2" href="#">
                             Create your Account
                             <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+                        </a> -->
+                        <p class="txt2" href="#">
+                            Contact Me :
+                            <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+                        </p>
+                        <a class=" btn sosmed facebook" title="Facebook" style="cursor: pointer;" target="_blank" onclick="href='https://www.facebook.com/bukharyay'">
+                            <i class=" fab fa-fw fa-facebook-square " aria-hidden=" true "></i>
                         </a>
-                    </div> -->
+                        <a class=" btn sosmed instagram" title="Instagram" style="cursor: pointer;" target="_blank" onclick="href='https://www.instagram.com/azrlgmpl/'">
+                            <i class=" fab fa-fw fa-instagram" aria-hidden=" true "></i>
+                        </a>
+                        <a class="btn sosmed whatsapp" title="Whatsapp" style="cursor: pointer;" target="_blank" onclick="href='https://api.whatsapp.com/send?phone=6287731516456&text=Halo%20Bukhary%20Azriellorezqa%20Yufar'">
+                            <i class=" fab fa-fw fa-whatsapp" aria-hidden=" true "></i>
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <p class="txt2" href="#">
+                            Tutorial & Source Code
+                            <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+                        </p>
+                        <a class="btn sosmed youtube" title="Youtube" style="cursor: pointer;" target="_blank" onclick="href='https://www.youtube.com/channel/UCHtVBA5DoCk01hk24x6KUFQ'">
+                            <i class=" fab fa-fw fa-youtube " aria-hidden=" true "></i>
+                        </a>
+                        <a class="btn sosmed github" title="Github" style="cursor: pointer;" target="_blank" onclick="href='https://github.com/bukharyay/Laundry'">
+                            <i class=" fab fa-fw fa-github " aria-hidden=" true "></i>
+                        </a>
+                    </div>
+
                 </form>
             </div>
         </div>

@@ -5,7 +5,7 @@ Aplikasi Laundry PHP Native
 
 **Video Demo** ada di [DemoYoutube](https://www.youtube.com/channel/UCHtVBA5DoCk01hk24x6KUFQ "Video Channel")
 
-**Demo Aplikasi Laundry** ada di [DemoOnline](https://https://codelight.000webhostapp.com/ "Demo Aplikasi Laundry")
+**Demo Aplikasi Laundry** ada di [DemoOnline](https://codelight.000webhostapp.com/ "Demo Aplikasi Laundry")
 
 ------------
 
